@@ -1,0 +1,32 @@
+{
+    "name": "stefanorg/zendcartcookie",
+    "description": "Addon module for zendcart to let the cart live form more than a user session",
+    "type": "library",
+    "keywords": [
+        "cookie",
+        "zendcart",
+        "module",
+        "library",
+        "zf2"
+    ],
+    "homepage": "https://github.com/stefanorg",
+    "authors": [
+        {
+            "name": "Stefano Corallo",
+            "email": "stefanorg@gmail.com",
+            "homepage": "http://stefanorg.github.io"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "zendcart/zendcart": "2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "ZendCartCookie": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
