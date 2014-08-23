@@ -1,5 +1,5 @@
 {
-    "name": "stefanorg/zendcartcookie",
+    "name": "stefanorg/zendcart-cookie",
     "description": "Addon module for zendcart to let the cart live form more than a user session",
     "type": "library",
     "keywords": [
